@@ -336,7 +336,12 @@ ul a:hover{
     }
     
 }
-
+@media (max-width :599px) {
+    .ul3{
+        display: none;
+    }
+    
+}
 
 
 
