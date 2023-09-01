@@ -120,6 +120,7 @@ span{
 @media (max-width :900px) {
     .navbar{
         width: 100%;
+        padding: 0 10px;
     }
     .nav-address{
         display: none;
@@ -128,6 +129,9 @@ span{
         display: none;
     }
     .nav-return{
+        display: none;
+    }
+    .nav-cart{
         display: none;
     }
     
@@ -221,6 +225,8 @@ span{
     }
     .hero-msg{
         padding: 30px 15px;
+        font-weight: 200;
+        font-size: 10px;
     }
     
 }
@@ -331,14 +337,8 @@ ul a:hover{
 
 /* RESPONSIVENESS FOR FOOTER */
 @media (max-width :900px) {
-    .ul2, .ul4{
-        display: none;
-    }
-    
-}
-@media (max-width :599px) {
-    .ul3{
-        display: none;
+    .ul1, .ul2, .ul3, .ul4{
+        font-size: 10px;
     }
     
 }
